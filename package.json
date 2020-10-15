@@ -1,0 +1,35 @@
+{
+    "name": "eta-vscode",
+    "displayName": "eta-vscode",
+    "description": "Language support for the Eta templating language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "eta",
+            "aliases": ["Eta", "eta"],
+            "extensions": [".eta"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "eta",
+            "scopeName": "text.html.eta",
+            "path": "./syntaxes/eta.json",
+            "injectTo": [
+                "text.html"
+            ],
+            "embeddedLanguages": {
+                "meta.embedded.block.eta": "eta",
+                "meta.embedded.block.javascript": "javascript"
+            },
+            "tokenTypes": {
+                "meta.embedded.block.javascript": "other"
+            }
+        }]
+    }
+}

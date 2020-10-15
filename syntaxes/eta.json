@@ -1,0 +1,18 @@
+{
+	"name": "Eta",
+	"patterns": [
+		{
+			"include": "#tag-eta-single-line"
+		}
+	],
+	"injectionSelector": "L:text.html",
+	"repository": {
+		"tag-eta-single-line": {
+			"name": "keyword.operator",
+			"begin": "<%=?",
+			"end": "%>",
+			"contentName": "meta.embedded.block.javascript"
+		}
+	},
+	"scopeName": "text.html.eta"
+}
