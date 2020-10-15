@@ -9,7 +9,7 @@
 	"repository": {
 		"tag-eta-single-line": {
 			"name": "keyword.operator",
-			"begin": "<%=?",
+			"begin": "<%(=|~)?",
 			"end": "%>",
 			"contentName": "meta.embedded.block.javascript"
 		}
