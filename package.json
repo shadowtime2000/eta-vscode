@@ -25,7 +25,7 @@
             ],
             "embeddedLanguages": {
                 "meta.embedded.block.eta": "eta",
-                "meta.embedded.block.javascript": "javascript"
+                "meta.embedded.block.javascript": "source.js"
             },
             "tokenTypes": {
                 "meta.embedded.block.javascript": "other"
