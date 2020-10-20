@@ -9,8 +9,8 @@
 	"repository": {
 		"tag-eta-single-line": {
 			"name": "keyword.operator",
-			"begin": "<%[ ]*(=|~)?",
-			"end": "%>",
+			"begin": "<%[-_]?\\s*?(~|=)?",
+			"end": "[-_]?%>",
 			"contentName": "meta.embedded.block.javascript"
 		}
 	},
