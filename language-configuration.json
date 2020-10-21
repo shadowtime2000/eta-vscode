@@ -1,6 +1,6 @@
 {
     "comments": {
-        "blockComment": [ "<%/*", "*/%>" ]
+        "blockComment": [ "<% /*", "*/ %>" ]
     },
     // symbols used as brackets
     "brackets": [
