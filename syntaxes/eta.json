@@ -2,19 +2,23 @@
 	"name": "Eta",
 	"patterns": [
 		{
-			"include": "#tag-eta-single-line"
+			"include": "#keywords"
 		}
 	],
 	"injectionSelector": "L:text.html",
 	"repository": {
-		"tag-eta-single-line": {
-			"name": "keyword.control",
-			"begin": "(<%[-_]?\\s*?(~|=)?)",
-			"end": "([-_]?%>)",
-			"contentName": "meta.embedded.block.javascript",
+		"keywords": {
 			"patterns": [
 				{
-					"include": "source.js"
+					"name": "keyword.control",
+					"begin": "(<%[-_]?\\s*?(~|=)?)",
+					"end": "([-_]?%>)",
+					"contentName": "meta.embedded.block.javascript",
+					"patterns": [
+						{
+							"include": "source.js"
+						}
+					]
 				}
 			]
 		}
