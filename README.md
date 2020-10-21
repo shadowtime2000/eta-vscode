@@ -14,6 +14,7 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Features
 
+* Syntax highlighting for Eta
 * Usage of delimiters inside of embedded Javascript (`console.log("%>")`)
 * Whitespace delimiting (`-` or `_`)
 * Raw tags (`<%~`)
