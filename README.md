@@ -1,6 +1,6 @@
 # eta-vscode
 
-VSCode language support for the Eta templating engine.
+> VSCode language support for the Eta templating engine.
 
 <!--## Features
 
@@ -11,6 +11,12 @@ For example if there is an image subfolder under your extension project workspac
 \!\[feature X\]\(images/feature-x.png\)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.-->
+
+## Features
+
+* Usage of delimiters inside of embedded Javascript (`console.log("%>")`)
+* Whitespace delimiting (`-` or `_`)
+* Raw tags (`<%~`)
 
 <!--## Known Issues
 
