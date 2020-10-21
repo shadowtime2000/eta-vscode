@@ -19,9 +19,13 @@
 							"include": "source.js"
 						}
 					]
+				},
+				{
+					"name": "html.eta",
+					"include": "text.html.derivative"
 				}
 			]
 		}
 	},
-	"scopeName": "text.html.eta"
+	"scopeName": "source.eta"
 }

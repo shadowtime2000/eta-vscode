@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "eta",
-            "scopeName": "text.html.eta",
+            "scopeName": "source.eta",
             "path": "./syntaxes/eta.json",
             "injectTo": [
                 "text.html"
