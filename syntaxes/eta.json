@@ -8,18 +8,8 @@
 	"injectionSelector": "L:text.html",
 	"repository": {
 		"tag-eta-single-line": {
-			"name": "tag.group",
+			"name": "keyword.control",
 			"begin": "(<%[-_]?\\s*?(~|=)?)",
-			"beginCaptures": {
-				"0": {
-					"name": "keyword.operator"
-				}
-			},
-			"endCaptures": {
-				"0": {
-					"name": "keyword.operator"
-				}
-			},
 			"end": "([-_]?%>)",
 			"contentName": "meta.embedded.block.javascript",
 			"patterns": [
