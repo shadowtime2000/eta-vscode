@@ -9,7 +9,7 @@
 	"repository": {
 		"tag-eta-single-line": {
 			"name": "tag.group",
-			"begin": "<%[-_]?\\s*?(~|=)?",
+			"begin": "(<%[-_]?\\s*?(~|=)?)",
 			"beginCaptures": {
 				"0": {
 					"name": "keyword.operator"
@@ -20,7 +20,7 @@
 					"name": "keyword.operator"
 				}
 			},
-			"end": "[-_]?%>",
+			"end": "([-_]?%>)",
 			"contentName": "meta.embedded.block.javascript",
 			"patterns": [
 				{
