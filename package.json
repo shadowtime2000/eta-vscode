@@ -2,7 +2,7 @@
     "name": "eta-vscode",
     "displayName": "eta-vscode",
     "description": "Language support for the Eta templating language",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.50.0"
     },
@@ -31,5 +31,6 @@
                 "meta.embedded.block.javascript": "other"
             }
         }]
-    }
+    },
+    "publisher": "shadowtime2000"
 }
