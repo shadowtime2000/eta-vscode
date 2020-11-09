@@ -32,5 +32,9 @@
             }
         }]
     },
-    "publisher": "shadowtime2000"
+    "publisher": "shadowtime2000",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shadowtime2000/eta-vscode"
+    }
 }
