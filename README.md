@@ -2,6 +2,8 @@
 
 > VSCode language support for the Eta templating engine.
 
+[![](https://img.shields.io/visual-studio-marketplace/d/shadowtime2000.eta-vscode)](https://marketplace.visualstudio.com/items?itemName=shadowtime2000.eta-vscode)
+
 <!--## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
