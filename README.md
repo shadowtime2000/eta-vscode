@@ -23,7 +23,19 @@ For example if there is an image subfolder under your extension project workspac
 
 <!--## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.-->
+Calling out known issues can help limit users opening duplicate issues against your extension.-->  
+
+## Usage  
+
+Open `settings.json` Visual Studio Code configuration file and add this lines:   
+```json
+    "files.associations": {
+      "*.eta": "eta"
+    },
+    "emmet.includeLanguages": {
+      "eta": "eta"
+    }
+```
 
 ## Release Notes
 
