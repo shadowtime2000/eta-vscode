@@ -5,7 +5,7 @@
 			"include": "#keywords"
 		}
 	],
-	"injectionSelector": "L:text.html",
+	"injectionSelector": "L:text.html.eta",
 	"repository": {
 		"keywords": {
 			"patterns": [
